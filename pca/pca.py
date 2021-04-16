@@ -1016,6 +1016,8 @@ def _store(PC, loadings, percentExplVar, model_pca, n_components, pcp, col_label
     out['outliers'] = outliers
     return out
 
+def _print_stats(self,percentExplVar):
+    print(percentExplVar)
 
 # %% Import example dataset from github.
 def import_example(data='titanic', verbose=3):
