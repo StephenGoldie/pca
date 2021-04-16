@@ -18,12 +18,12 @@ setuptools.setup(
      name='pca',
      version=new_version,
      author="Erdogan Taskesen",
-     author_email="erdogant@gmail.com",
+     author_email="erdogant@gmail.com + stephen.goldrick16@gmail.com",
      description="pca is a python package that performs the principal component analysis and to make insightful plots.",
      long_description=long_description,
      long_description_content_type="text/markdown",
-     url="https://github.com/erdogant/pca",
-	 download_url = 'https://github.com/erdogant/pca/archive/'+new_version+'.tar.gz',
+     url="https://github.com/StephenGoldie/pca.git",
+	 #download_url = 'https://github.com/erdogant/pca/archive/'+new_version+'.tar.gz',
      packages=setuptools.find_packages(), # Searches throughout all dirs for files to include
      include_package_data=True, # Must be true to include files depicted in MANIFEST.in
      classifiers=[
